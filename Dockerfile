@@ -33,7 +33,7 @@ ENV BOOT2DOCKER_CLI_VERSION ${DOCKER_VERSION}
 RUN curl -sSL -o /boot2docker https://github.com/boot2docker/boot2docker-cli/releases/download/v${BOOT2DOCKER_CLI_VERSION}/boot2docker-v${BOOT2DOCKER_CLI_VERSION}-darwin-amd64
 
 ENV BOOT2DOCKER_ISO_VERSION $DOCKER_VERSION
-RUN curl -sSL -o /boot2docker.iso https://github.com/boot2docker/boot2docker/releases/download/v${BOOT2DOCKER_ISO_VERSION}/boot2docker.iso
+RUN curl -sSL -o /boot2docker.iso https://github.com/alfonsodev/boot2docker/releases/download/colmena.iso/colmena.iso 
 
 ENV INSTALLER_VERSION $DOCKER_VERSION
 
